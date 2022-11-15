@@ -168,14 +168,7 @@
 
 
 
-/*-----------------------------------*\
-  #TESTIMONIALS
-\*-----------------------------------*/
 
-.testi .slider-item {
-  min-width: 100%;
-  scroll-margin-inline-start: 16px;
-}
 
 .testi .card {
   position: relative;
@@ -209,16 +202,6 @@
   border: 1px solid var(--jet);
   border-radius: var(--radius-pill);
 }
-
-.testi .slider::-webkit-scrollbar-thumb {
-  background-color: var(--jet);
-  border-radius: var(--radius-pill);
-}
-
-.testi .slider::-webkit-scrollbar-button { width: calc(25% - 20px); }
-
-
-
 
 
 /*-----------------------------------*\
@@ -287,13 +270,6 @@
 
 
 
-  /**
-   * TESTIMONIALS
-   */
-
-  .testi .slider-item { min-width: calc(50% - 15px); }
-
-}
 
 
 
@@ -323,15 +299,6 @@
   .hero { text-align: left; }
 
   .hero .btn { margin-inline: 0; }
-
-
-
-  /**
-   * CLIENT
-   */
-
-  .client .slider-item { min-width: calc(20% - 24px); }
-
 
 
   /**
